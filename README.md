@@ -59,7 +59,7 @@ Performance metrics evaluated on test set:
 ### Running in Google Colab
 
 1. Clone this repository or download the notebook file
-2. Upload `Fine-Tuned_RAG_Framework_for_Python_Documentation_Q_A.ipynb` to Google Colab
+2. Upload `Fine-Tuned RAG Framework for Python Documentation Q&A.ipynb` to Google Colab
 3. Select Runtime > Change runtime type > A100 GPU (or T4 GPU for free tier)
 4. Run all cells sequentially
 
@@ -76,14 +76,14 @@ The notebook will automatically:
 
 ```bash
 # Clone the repository
-git clone https://github.com/SpencerCPurdy/finetuned-rag-python-docs.git
-cd finetuned-rag-python-docs
+git clone https://github.com/SpencerCPurdy/Fine-Tuned_RAG_Framework_for_Python_Documentation_QA.git
+cd Fine-Tuned_RAG_Framework_for_Python_Documentation_QA
 
 # Install dependencies
 pip install torch transformers datasets peft gradio pandas numpy scikit-learn tqdm requests beautifulsoup4 rouge-score bert-score accelerate sentence-transformers chromadb
 
 # Run the notebook
-jupyter notebook Fine-Tuned_RAG_Framework_for_Python_Documentation_Q_A.ipynb
+jupyter notebook "Fine-Tuned RAG Framework for Python Documentation Q&A.ipynb"
 ```
 
 **Note:** First run will take approximately 10-15 minutes for data collection, training, and setup.
@@ -91,7 +91,7 @@ jupyter notebook Fine-Tuned_RAG_Framework_for_Python_Documentation_Q_A.ipynb
 ## Project Structure
 
 ```
-├── Fine-Tuned_RAG_Framework_for_Python_Documentation_Q_A.ipynb
+├── Fine-Tuned RAG Framework for Python Documentation Q&A.ipynb
 ├── README.md
 ├── LICENSE
 └── .gitignore
