@@ -205,3 +205,69 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ==================================================================
+# Project-Specific Files for RAG Framework
+# ==================================================================
+
+# Model files (fine-tuned models can be very large)
+finetuned_python_rag_model/
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+adapter_config.json
+adapter_model.bin
+training_args.bin
+
+# Vector database files
+python_docs_vectordb/
+*.chroma
+chroma.sqlite3
+
+# Data cache files
+python_docs_cache.json
+*.json.gz
+data/
+cache/
+
+# System state files
+system_state.json
+
+# Model cache directories
+transformers_cache/
+huggingface/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Generated directories during runtime
+models/
+results/
+outputs/
+logs/
+
+# Gradio temporary files
+gradio_cached_examples/
+flagged/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+*.stackdump
+Desktop.ini
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
